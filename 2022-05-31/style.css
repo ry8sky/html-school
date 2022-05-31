@@ -1,0 +1,119 @@
+* {
+    /* font-weight: bold; */
+    color: black;
+    background-color: white;
+}
+
+p {
+    background-color: violet;
+    border-radius: 10px;
+}
+
+p em {
+    font-size: 14pt;
+
+    border: 1px solid blue;
+    /* 
+        border-size: 1px;
+        border-style: solid;
+        border-color: blue;
+    */
+
+    padding: 10px;  /* all */
+    /* 
+    padding: 12px 10px; góra-dół, lewo-prawo 
+    padding: 10px 11px 12px 13px; górny, dolny, lewy, prawy
+    */
+}
+
+p > strong {
+    margin: 5px;
+    font-family: "Comic Sans MS";
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+p strong {
+    color: red;
+}
+
+p > div > strong {
+    text-decoration: line-through;
+}
+
+label, input {
+    background-color: aqua;
+    border: 5px dotted red;
+}
+
+article {
+    padding: 32px;
+}
+
+#art10 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+article#art11 {
+    background-color: #420069;
+}
+
+article#art11 p {
+    background-color: transparent;
+}
+
+#tabela1, #tabela1 td, #tabela1 th{
+    border: 1px solid black;    
+}
+
+.xd {
+    color: green;
+    font-weight: bold;
+}
+
+th.xd {
+    text-decoration: underline;
+}
+
+td.xd {
+    text-decoration: line-through;
+}
+
+/* Pseudoklasy */
+button:hover {
+    background-color: #7fff7f;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #777;
+}
+
+/* pseudoelementy */
+p::first-letter {
+    font-size: 28pt;
+}
+
+figure {
+    width: 300px;
+    margin: 0 auto;
+}
+
+div {
+    display: block;
+    visibility: hidden;
+}
+
+tr:nth-of-type(2n) {
+    color: red;
+}
