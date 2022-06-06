@@ -1,0 +1,7 @@
+git push origin = wysyła plik do repozytorium
+git pull = pobiera plik z repozytorium
+git add (. lub "nazwa") - dodaj plik do repozytorium (wszystkie albo po nazwie)
+git commit -m "wiadomosc" = dokonaj zmiany plikow w repozytorium
+git fetch = sprawdzenie plikow z repozytorium (zmiany)
+git stash = zrzucenie zmian od ostatniego commita na stos 
+git stash apply = -//- przywrócenie zmian

@@ -1,0 +1,103 @@
+/* gwizadka do wszystkich elementow */
+* { 
+    font-weight: normal;
+    color: black;
+    background-color: beige;
+}
+/* selektor do akapitow p */
+p {
+    background-color: blueviolet;
+    border-radius: 10px;
+}
+/* em tylko w p - potomek */
+p em {
+    background-color: violet;
+    font-size: 14pt;
+    /* shorthand - wiele wartosci w jednej linii */
+    border: 1px solid blue;
+    /* góra-dół, lewo-prawo */
+    padding: 12px 10px;
+}
+/* bezpośrednie dziecko */
+p > strong {
+    margin: 5px;
+    font-family: 'Arial';
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+label, input {
+    background-color: aqua;
+    border: 5px dotted red;
+}
+
+/* identyfikator indywidualny dla każdego */
+
+article {
+    padding: 32px;
+}
+
+#art10 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+article#art12 {
+    background-color: #420069;
+}
+
+figure {
+    width: 300px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: black;
+}
+
+
+/* klasy !!!!!!!!!!!!!! */
+
+#tabela1 td, #tabela1 th {
+    border: 1px solid black;
+}
+/* selektor klasy z kropką  */
+.xd {
+    font-weight: bold;
+    color: green;
+}
+
+th.xd {
+    text-decoration: line-through;
+}
+
+td.xd {
+    text-decoration: underline;
+}
+
+/* pseudoklasy */
+button:hover {
+    background-color: darkgray;
+}
+
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    color: blue;
+
+}
+a:visited {
+    text-decoration: none;
+    color: aqua;
+}
+
+/* pseudoelementy */
+
+p::first-letter {
+    font-size: 28pt;
+}
+/* inline block none flex table  */
+div {
+    display: ;
+    /* visibility: collapse; */
+}
