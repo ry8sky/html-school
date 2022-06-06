@@ -1,0 +1,9 @@
+.element {
+    border: 2px dashed black;
+    border-radius: 5px;
+}
+
+.bledna-wartosc {
+    background-color: #ffafaf;
+    border: 2px dashed red;
+}
