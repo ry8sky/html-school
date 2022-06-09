@@ -1,0 +1,17 @@
+header {
+    font-size: 20px;
+    font-family: Helvetica;
+}
+#button1 {
+    margin-left:15px;
+} 
+#wpiszNrPESEL {
+    border: 1px solid black;
+    width: 100px;
+    height: 15px;
+}
+#outputChkdPESEL {
+    border: 1px solid black;
+    width: fit-content;
+    height: fit-content;
+}
